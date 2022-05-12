@@ -1,20 +1,12 @@
-// import { useState } from "react";
-
 import CollapsibleButton from "../../components/CollapsibleButton";
-// import Navbar from "../../components/Navbar";
 
 import "./AboutUs.css";
-// import jen from "../../images/jen.png";
 
 function AboutUs() {
-  // const [hidden, setHidden] = useState(true);
-
   return (
     <div className="AboutUs">
       <h2 className="about-us">ABOUT US</h2>
-      {/* <Navbar title="About Us" /> */}
       <div className="aboutUs-content">
-        {/* <img className="ourPictures" src={jen}/> */}
         <CollapsibleButton
           id="asaniButton"
           text="Asani"

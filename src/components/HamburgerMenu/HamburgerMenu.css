@@ -1,0 +1,60 @@
+.hamburger-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-dropbtn {
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-content {
+  margin-left: -120px;
+  position: absolute;
+  background-color: #fff;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hamburger-content p {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.hamburger-logout {
+  background-color: #fff;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#hamburger-logout {
+  background-color: transparent;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: none;
+  border-radius: 0;
+  font-family: "Happy Monkey", cursive, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  text-transform: capitalize;
+  width: 150px;
+  text-align: left;
+}
+
+#hamburger-logout:hover {
+  background-color: #fff5c0;
+}
+
+.hamburger-content p:hover {
+  background-color: #fff5c0;
+}
+.hamburger-logout:hover {
+  background-color: #fff5c0;
+}

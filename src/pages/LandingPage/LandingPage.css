@@ -1,0 +1,86 @@
+.Sleepingcowlogo {
+  display: flex;
+  width: 40vw;
+  max-width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Loginsignupbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+}
+
+.container-new {
+  border-radius: 50px;
+  background-color: wheat;
+  padding: 120px;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+  text-align: center;
+}
+
+#Login-button {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+/* =========== MEDIA QUERIES (SMALL) =======*/
+
+@media screen and (min-width: 480px) and (max-width: 481px) {
+  .landingPage-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container-new {
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #Login-button {
+    height: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+/* =========== MEDIA QUERIES (MEDIUM) =======*/
+
+@media screen and (min-width: 768px) and (max-width: 769px) {
+}
+
+.landingPage-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-new {
+  width: 85vw;
+  margin: 0;
+  padding: 0;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========== MEDIA QUERIES (LARGE) =======*/
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+}

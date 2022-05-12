@@ -1,0 +1,88 @@
+.role {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.role-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.role-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#choose_role {
+  font-size: 1.25em;
+}
+
+.role-dropdown {
+  text-align: center;
+  width: 500px;
+  max-width: 40vw;
+  margin-bottom: 25px;
+}
+
+.role-dropdown-title {
+  font-size: 2em;
+  color: #7b7463;
+}
+
+.role-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/* =========== MEDIA QUERIES (SMALL) =======*/
+
+@media screen and (min-width: 480px) and (max-width: 481px) {
+  .role-form {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .role-dropdown {
+    width: 350px;
+    max-width: 50vw;
+  }
+
+  .role-dropdown-title {
+    margin-top: 50px;
+    font-size: 1.5em;
+  }
+
+  #choose_role {
+    font-size: 1em;
+  }
+}
+
+/* =========== MEDIA QUERIES (MEDIUM) =======*/
+
+@media screen and (min-width: 768px) and (max-width: 769px) {
+  .role-dropdown-title {
+    margin-top: 75px;
+  }
+}
+
+/* =========== MEDIA QUERIES (LARGE) =======*/
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+  .role-dropdown-title {
+    margin-top: 100px;
+  }
+}

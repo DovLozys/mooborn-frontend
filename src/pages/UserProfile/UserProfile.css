@@ -1,0 +1,40 @@
+.userProfile-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.userProfile-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar-name {
+  margin-top: 50px;
+  margin-left: auto;
+}
+
+.app-avatar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========== MEDIA QUERIES (SMALL) =======*/
+
+@media screen and (min-width: 480px) and (max-width: 481px) {
+}
+
+/* =========== MEDIA QUERIES (MEDIUM) =======*/
+
+@media screen and (min-width: 768px) and (max-width: 769px) {
+}
+
+/* =========== MEDIA QUERIES (LARGE) =======*/
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+}

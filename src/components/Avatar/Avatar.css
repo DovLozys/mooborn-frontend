@@ -1,0 +1,14 @@
+.avatar-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    rgba(191, 110, 255, 1),
+    rgba(207, 165, 249, 0.5)
+  );
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  color: white;
+  font-size: 3em;
+}

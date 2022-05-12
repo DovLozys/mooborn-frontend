@@ -1,0 +1,309 @@
+main {
+  display: flex;
+  flex: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.feedtracker-content {
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+
+#feedTracker-avatar {
+  margin: 25px 0 0 25px;
+}
+
+.feedsOptionButtons {
+  display: flex;
+  height: 20%;
+  width: 80%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.ordinarybutton {
+  margin: 0 15px;
+  background-color: #beffed;
+  color: #666666;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 3px 3px 2px #407163;
+}
+
+.submitButton-feeds {
+  margin-top: 30px;
+  background-color: #beffed;
+  color: #666666;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  box-shadow: 3px 3px 2px #407163;
+}
+
+/* breastfeeding display */
+.total-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.feeds-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+}
+
+.totalFeed {
+  font-size: xx-large;
+}
+
+.feedtracker-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.leftButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  margin-top: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #fcb970;
+  border: solid 10px white;
+  width: 150px;
+  height: 150px;
+  font-weight: bolder;
+  color: #f2f2f2;
+  font-display: center;
+  font-size: 1.5em;
+}
+
+.rightButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  margin-top: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #fcb970;
+  border: solid 10px white;
+  width: 150px;
+  height: 150px;
+  font-weight: bolder;
+  color: #f2f2f2;
+  font-display: center;
+  font-size: 1.5em;
+}
+
+.scaledButton {
+  transform: scale(1.25, 1.25);
+}
+
+.feedText-string {
+  margin: 25px 0 0 0;
+  font-weight: bold;
+  font-size: large;
+}
+
+.feedText-time {
+  margin: 5px 0 0 0;
+}
+
+/* bottle feeding display */
+
+/*  */
+.bottle-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.amountOptionButtons {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.bottlesbutton {
+  background-color: #f5aa5a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  box-shadow: 3px 3px 2px #a57949;
+}
+
+.inputArea {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 200px;
+}
+
+.type-dropdown-title {
+  margin-bottom: 5px;
+}
+
+#choose_type {
+  height: 30px;
+  width: 200px;
+}
+
+.left-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: center;
+}
+
+/* =========== MEDIA QUERIES (SMALL) - 480px x 853px =======*/
+
+/* breastfeeding display */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .feedtracker-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #feedTracker-avatar {
+    height: 120px;
+    width: 120px;
+    margin: 20px 0 0 0;
+  }
+
+  .feedsOptionButtons {
+    display: flex;
+    height: 10%;
+    width: 50%;
+    margin: 12px 0 0 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tracker-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .total-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 65%;
+  }
+
+  .feeds-display-container {
+    text-align: center;
+    font-size: small;
+    margin: 0;
+    width: 70%;
+  }
+
+  .totalFeed {
+    font-size: large;
+  }
+
+  .feedtracker-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .feedText-string {
+    margin: 25px 0 0 0;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  .feedText-time {
+    font-size: small;
+    margin: 5px 0 0 0;
+  }
+
+  .left {
+    margin-top: 10px;
+  }
+
+  .right {
+    margin-top: 10px;
+  }
+
+  /* bottle feeding */
+  .amountOptionButtons {
+    width: 40%;
+  }
+
+  .bottlesbutton {
+    width: 60px;
+    height: 40px;
+  }
+}
+
+/* =========== MEDIA QUERIES (MEDIUM) - 768px x 1024px =======*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* breastfeeding display */
+
+  .total-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    /* height: 65%; */
+  }
+
+  .feeds-display-container {
+    text-align: center;
+  }
+  .feedtracker-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
+/* =========== MEDIA QUERIES (LARGE) - 1024px x 768px =======*/
+
+@media screen and (min-width: 1024px) {
+  /* breastfeeding display */
+}

@@ -1,0 +1,75 @@
+.button-role {
+  background-color: #beffed;
+  border-radius: 20px;
+  box-shadow: 1px 4px 5px rgb(102, 104, 104);
+  border: none;
+  height: 60px;
+  width: 250px;
+  padding: 0 2em;
+  margin-bottom: 1em;
+  color: #666666;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.button-addChild {
+  background-color: #beffed;
+  border-radius: 15px;
+  box-shadow: 1px 4px 5px rgb(102, 104, 104);
+  border: none;
+  height: 70px;
+  width: 280px;
+  padding: 0 2em;
+  /* margin-top: 5em; */
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+  color: #666666;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.button-addChildonUserProfile {
+  background-color: #eab3fe;
+  border-radius: 15px;
+  box-shadow: 1px 4px 5px rgb(102, 104, 104);
+  border: none;
+  height: 70px;
+  width: 280px;
+  padding: 0 2em;
+  /* margin-bottom: 0.5em;
+  margin-left: 2em; */
+  color: #666666;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.button-userProfile {
+  background-color: #beffed;
+  border-radius: 20px;
+  box-shadow: 1px 4px 5px rgb(102, 104, 104);
+  border: none;
+  height: 50px;
+  width: 180px;
+  padding: 0 2em;
+  margin-top: 7vw;
+  color: #666666;
+  font-weight: bold;
+}
+
+.button {
+  background: var(--btn-color);
+  color: #666666;
+  border-radius: 30px;
+  width: max-content;
+  display: inline-block;
+  box-shadow: 2px 2px var(--btn-shadow);
+  text-transform: uppercase;
+  font-style: Bold;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--btn-color-variant);
+  border-color: transparent;
+}

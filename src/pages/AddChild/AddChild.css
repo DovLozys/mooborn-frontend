@@ -1,0 +1,181 @@
+.addChild {
+  color: #7b7463;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.addChild-content {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+}
+
+.addChild-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 30%;
+  max-width: 30vw;
+}
+
+#addChild-avatar {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin-top: 2em;
+  margin-left: 2em;
+  background-image: linear-gradient(
+    rgba(191, 110, 255, 1),
+    rgba(207, 165, 249, 0.5)
+  );
+}
+
+.addChild-name {
+  height: 30px;
+}
+
+input[type="text"] {
+  height: 30px;
+}
+
+input[type="number"] {
+  height: 30px;
+  width: 100%;
+  max-width: 30vw;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+}
+
+.addChild-weight {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.addChild-birthWeightPounds {
+  width: 240px;
+}
+
+.addChild-birthWeightOunces {
+  width: 100px;
+}
+
+.addChild-foodPreferences {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+
+.addChild-foodPrefCheckbox {
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.addChild-label {
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 2px;
+}
+
+/* =========== MEDIA QUERIES (SMALL) =======*/
+
+@media screen and (min-width: 480px) and (max-width: 481px) {
+  .addChild-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+  }
+
+  #addChild-avatar {
+    height: 4em;
+    width: 4em;
+    margin: 0;
+  }
+
+  input {
+    height: 20px;
+    font-size: 0.7em;
+    padding: 0 0 0 5px;
+    margin: 0px;
+  }
+
+  .addChild-name {
+    margin: 0;
+  }
+
+  label {
+    font-size: 0.7em;
+  }
+  .addChild-label {
+    padding: 0;
+    font-size: 0.8em;
+  }
+
+  #Sex {
+    height: 20px;
+  }
+
+  .addChild-birthWeightPounds {
+    height: 40px;
+  }
+
+  .addChild-birthWeightOunces {
+    height: 40px;
+  }
+
+  .addChild-foodPreferences {
+    margin: 0;
+  }
+
+  .button-addChild {
+    height: 35px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .addChild-form {
+    margin-top: 40px;
+  }
+}
+
+/* =========== MEDIA QUERIES (MEDIUM) =======*/
+
+@media screen and (min-width: 768px) and (max-width: 769px) {
+  #addChild-avatar {
+    height: 4em;
+    width: 4em;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* =========== MEDIA QUERIES (LARGE) =======*/
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+  #addChild-avatar {
+    height: 4em;
+    width: 4em;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

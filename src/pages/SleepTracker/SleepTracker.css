@@ -1,0 +1,167 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sleeptracker-content {
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+
+#sleepTracker-avatar {
+  margin: 25px 0 0 25px;
+}
+
+.tracker-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 60%;
+  width: 60%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.sleepTime {
+  font-size: 1.75em;
+  margin-bottom: 20px;
+}
+
+.start {
+  border-radius: 50%;
+  background-color: green;
+  border: solid 10px white;
+  width: 140px;
+  height: 140px;
+  font-weight: bolder;
+  color: #f2f2f2;
+  font-display: center;
+  font-size: 1.5em;
+}
+.startButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stop {
+  border-radius: 50%;
+  background-color: red;
+  border: solid 10px white;
+  width: 140px;
+  height: 140px;
+  font-weight: bolder;
+  color: #f2f2f2;
+  font-display: center;
+  font-size: 1.5em;
+}
+.stopButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.submitButton-sleeps {
+  margin-top: 30px;
+  background-color: #beffed;
+  color: #666666;
+  border: none;
+  border-radius: 15px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 3px 3px 2px #407163;
+}
+
+.sleeptracker-buttons {
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* =========== MEDIA QUERIES (SMALL) - 480px x 853px =======*/
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .sleeptracker-content {
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+  }
+
+  #sleepTracker-avatar {
+    height: 150px;
+    width: 150px;
+    margin: 25px 0 0 0;
+  }
+
+  .sleepTime {
+    margin-top: 40px;
+  }
+
+  .sleeptracker-buttons {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .button-childProfile {
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  #sleep-color-button {
+    margin-top: 60px;
+  }
+}
+
+/* =========== MEDIA QUERIES (MEDIUM) - 768px x 1024px =======*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #sleepTracker-avatar {
+    height: 150px;
+    width: 150px;
+    margin: 25px 0 0 0;
+  }
+
+  #sleep-color-button {
+    margin-top: 60px;
+  }
+}
+
+/* =========== MEDIA QUERIES (LARGE) - 1024px x 768px =======*/
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+  .sleeptracker-buttons {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .button-childProfile {
+    height: 60px;
+    width: 250px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 2px 10px gray;
+}
+
+.navbar-logo {
+  width: 5em;
+  padding-left: 1em;
+}
+
+.navbar-title {
+  display: flex;
+  color: #85177a;
+  font-size: 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+/* media */
+
+/* small phone */
+
+@media only screen and (min-width: 360px) and (min-height: 600px) {
+  .navbar-title {
+    font-size: 1em;
+  }
+
+  .navbar-logo {
+    width: 50px;
+  }
+}
+
+/* surface Pro 912px x 1368px */
+@media only screen and (min-width: 912px) and (min-height: 1368px) {
+  .navbar-title {
+    font-size: 2em;
+  }
+
+  .navbar-logo {
+    width: 65px;
+  }
+}
+
+/* nest hub max 1206 x 760 */
+@media only screen and (min-width: 1024px) and (min-height: 600px) {
+  .navbar-title {
+    font-size: 1.75em;
+  }
+
+  .navbar-logo {
+    width: 60px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .navbar-title {
+    font-size: 1.75em;
+  }
+
+  .navbar-logo {
+    width: 60px;
+  }
+}
